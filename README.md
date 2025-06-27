@@ -55,6 +55,9 @@ The **Movie Recommender System** is a web-based application that provides person
 ### Recommendations
 ![Recommendations](static/screenshots/recommendations.png)
 
+### Google Search
+![Google Search](static/screenshots/google_search.png)
+
 ## Contributing
 
 Contributions are welcome! Please follow these steps:
