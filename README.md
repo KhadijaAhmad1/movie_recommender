@@ -82,3 +82,4 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 - Inspired by Netflix's modern UI design.
 - Built with Flask and love for movies.
+- Created by **Khadija Ahmad** - Aspiring Data Analyst.
