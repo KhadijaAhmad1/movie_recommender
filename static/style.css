@@ -6,15 +6,16 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background-color: #f4f4f4;
+    background-color: #2b2b2b; /* Dark charcoal background */
+    color: #f0f0f0; /* Light gray text */
 }
 
 .container {
     text-align: center;
-    background: white;
+    background: #3a3a3a; /* Slightly lighter gray container background */
     padding: 2rem;
     border-radius: 8px;
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); /* Darker shadow */
 }
 
 input[type="text"] {
@@ -22,21 +23,28 @@ input[type="text"] {
     font-size: 1rem;
     width: 80%;
     margin: 1rem 0;
+    background-color: #3a3a3a; /* Slightly lighter gray input background */
+    color: #f0f0f0; /* Light gray text */
+    border: 1px solid #3a3a3a; /* Matching border */
 }
 
 button {
     padding: 0.5rem 1rem;
-    background-color: #007bff;
+    background-color: #4a9eff; /* Bright blue button */
     color: white;
     border: none;
     border-radius: 4px;
     font-size: 1rem;
     cursor: pointer;
 }
-/* Add to your existing CSS */
-.rating {
+
+button:hover {
+    background-color: #3a8ae0; /* Slightly darker blue on hover */
+}
+
+rating {
     font-size: 1.1em;
-    color: #ffd700;
+    color: #ff6b35; /* Warm orange for ratings */
     margin: 10px 0;
 }
 
@@ -46,6 +54,6 @@ button {
 }
 
 .similarity {
-    color: #ff6f61;
+    color: #52c41a; /* Muted green for similarity */
     margin: 5px 0;
 }
